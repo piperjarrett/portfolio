@@ -1,0 +1,11 @@
+
+.projects-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-div {
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,9 @@
+.chakra-heading {
+    display: flex;
+    justify-content: space-evenly;
+    border: 0.2rem solid;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    flex-wrap: wrap;
+}
