@@ -14,36 +14,47 @@ const About = () => {
   return (
     <section>
       <div className="about">
-        <h3>About Me</h3>
+        <h4>About Me</h4>
         <p>
-          Software Developer and Problem Solving Enthusiast with a passion for
-          finding the most efficient and effective solution to complex problems.
-          With a background in Mechanical Engineering, I bring a unique
-          perspective and approach to software development.
+          Though you can find my technical abilities on my resume, here are some
+          others things I enjoy to do other than learn.
         </p>
       </div>
-      <h4>My Favorite Places</h4>
+      <h4>Travel</h4>
       <div className="wrapper">
         <div className="media">
           <div className="layer">
             <p className="img__description">+ Seville, Spain</p>
+            <p>
+              When it comes to amazing archictecture, siestas, and tapas,
+              Seville is the place to go!{" "}
+            </p>
           </div>
           <img src={spainImg} />
         </div>
         <div className="media">
           <div className="layer">
             <p className="img__description">+ Ios, Greece</p>
+            <p>
+              Ios, Greece is a beautiful smaller island in the Greek islands
+              that has beautiful beaches and even better sunsets
+            </p>
           </div>
           <img src={greeceImg} />
         </div>
         <div className="media">
           <div className="layer">
             <p className="img__description">+ Munich, Germany</p>
+            <p>
+              There are endless explorations in Munich ranging for world
+              history, beautiful gardens and can even catch a live surfing
+              session
+            </p>
           </div>
           <img src={munichImg} />
         </div>
       </div>
-      <h4>Outside of Learning</h4>
+      <h4>Activities</h4>
       <div className="wrapper">
         <div className="media">
           <div className="layer">
@@ -69,18 +80,31 @@ const About = () => {
         <div className="media">
           <div className="layer">
             <p className="img__description">Thai</p>
+            <p>
+              Thai is my 4 year old point lynx siamese cat who loves to nap all
+              day run around all night.
+            </p>
           </div>
           <img src={thaiImg} />
         </div>
         <div className="media">
           <div className="layer">
             <p className="img__description">Albuquerque, NM </p>
+            <p>
+              I was born and raise in Albuquerque where they have an annual
+              balloon fiesta and the best red and green chile.
+            </p>
           </div>
           <img src={abqImg} />
         </div>
         <div className="media">
           <div className="layer">
             <p className="img__description">Texas Tech</p>
+            <p>
+              I attended Texas Tech and graduated in May 2022. I majored in
+              Mechanical Engineering and had so many amazing memories from this
+              place.{" "}
+            </p>
           </div>
           <img src={texastechimg} />
         </div>
