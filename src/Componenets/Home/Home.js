@@ -8,7 +8,13 @@ const Home = () => {
       </div>
       <div className="info">
         <h2>Piper Jarrett</h2>
-        <p>A Mechanical Engineer turned Software developer</p>
+        <p>
+          {" "}
+          Software Developer and Problem Solving Enthusiast with a passion for
+          finding the most efficient and effective solution to complex problems.
+          With a background in Mechanical Engineering, I bring a unique
+          perspective and approach to software development.
+        </p>
       </div>
     </div>
   );

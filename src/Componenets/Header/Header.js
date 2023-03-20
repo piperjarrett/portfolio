@@ -29,9 +29,11 @@ const Header = () => {
       <NavLink to="/projects">
         <p>Projects</p>
       </NavLink>
-      <a href={process.env.PUBLIC_URL + "Piper Jarrett Resume.pdf"} download>
-        Download CV
-      </a>
+      <p>
+        <a href={process.env.PUBLIC_URL + "Piper Jarrett Resume.pdf"} download>
+          Download CV
+        </a>
+      </p>
     </Heading>
   );
 };
