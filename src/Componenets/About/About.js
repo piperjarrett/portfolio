@@ -47,7 +47,7 @@ const About = () => {
             <p className="img__description">+ Munich, Germany</p>
             <p>
               There are endless explorations in Munich ranging for world
-              history, beautiful gardens and can even catch a live surfing
+              history, beautiful gardens and you can even catch a live surfing
               session
             </p>
           </div>
@@ -91,8 +91,8 @@ const About = () => {
           <div className="layer">
             <p className="img__description">Albuquerque, NM </p>
             <p>
-              I was born and raise in Albuquerque where they have an annual
-              balloon fiesta and the best red and green chile.
+              I was born and raised in Albuquerque where they have an annual
+              balloon fiesta and the best red and green chile you can find.
             </p>
           </div>
           <img src={abqImg} />
@@ -101,25 +101,14 @@ const About = () => {
           <div className="layer">
             <p className="img__description">Texas Tech</p>
             <p>
-              I attended Texas Tech and graduated in May 2022. I majored in
-              Mechanical Engineering and had so many amazing memories from this
-              place.{" "}
+              I attended Texas Tech University for my Bachelor's Degree and graduated in May 2022. I
+              majored in Mechanical Engineering and had so many amazing memories
+              from this place.{" "}
             </p>
           </div>
           <img src={texastechimg} />
         </div>
       </div>
-      {/* <div className="info">
-          <div className="turing-info">
-            <h4>Turing School of Software and Design</h4>
-            <p>
-              I began an intensive bootcamp Turing School of Software and Design
-              in July 2022. I worked on noumerous projects ranging from soling
-              to a team of 8 people.
-            </p>
-          </div>
-          <img src="hgh" />
-        </div> */}
     </section>
   );
 };
