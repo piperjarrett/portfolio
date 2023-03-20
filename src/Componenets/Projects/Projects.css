@@ -4,8 +4,27 @@
     flex-direction: column;
     align-items: center;
 }
-
-.projects-div {
+.projects-container {
     display: flex;
+    width: 100%;
+    justify-content: space-around;
     flex-wrap: wrap;
+}
+.img {
+    height: auto !important;
+}
+
+h4 {
+    margin: 2rem;
+}
+
+.chakra-button {
+    margin: .5rem
+}
+.chakra-card {
+    margin: 2rem;
+}
+.chakra-card__footer {
+    display: flex;
+    justify-content: center;
 }
