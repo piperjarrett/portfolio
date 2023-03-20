@@ -58,7 +58,7 @@ h4 {
    img {
     margin: 10px;
     max-width: auto;
-    height: 30rem !important;
+
     padding: 3rem;
   }
   
@@ -98,15 +98,6 @@ h4 {
     transition: all .9s ease;
   }
   
-  /* @media (max-width: 800px){
-    body {
-      transform: scale(0.6);
-    }
+  .about-image {
+    height: 30rem !important;
   }
-  
-  @media (max-width: 600px) {
-      .wrapper {
-      display: block;
-
-    }
-  } */

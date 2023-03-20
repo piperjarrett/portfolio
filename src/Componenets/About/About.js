@@ -30,7 +30,7 @@ const About = () => {
               Seville is the place to go!{" "}
             </p>
           </div>
-          <img src={spainImg} />
+          <img className="about-image" src={spainImg} />
         </div>
         <div className="media">
           <div className="layer">
@@ -40,7 +40,7 @@ const About = () => {
               that has beautiful beaches and even better sunsets
             </p>
           </div>
-          <img src={greeceImg} />
+          <img className="about-image" src={greeceImg} />
         </div>
         <div className="media">
           <div className="layer">
@@ -51,7 +51,7 @@ const About = () => {
               session
             </p>
           </div>
-          <img src={munichImg} />
+          <img className="about-image" src={munichImg} />
         </div>
       </div>
       <h4>Activities</h4>
@@ -60,19 +60,19 @@ const About = () => {
           <div className="layer">
             <p className="img__description">Reading</p>
           </div>
-          <img src={spainImg} />
+          <img className="about-image" src={spainImg} />
         </div>
         <div className="media">
           <div className="layer">
             <p className="img__description">Snowboarding</p>
           </div>
-          <img src={snowboardingImg} />
+          <img className="about-image" src={snowboardingImg} />
         </div>
         <div className="media">
           <div className="layer">
             <p className="img__description">Foodie</p>
           </div>
-          <img src={foodImg} />
+          <img className="about-image" src={foodImg} />
         </div>
       </div>
       <h4>Near and Dear to My Heart</h4>
@@ -85,7 +85,7 @@ const About = () => {
               day run around all night.
             </p>
           </div>
-          <img src={thaiImg} />
+          <img className="about-image" src={thaiImg} />
         </div>
         <div className="media">
           <div className="layer">
@@ -95,18 +95,18 @@ const About = () => {
               balloon fiesta and the best red and green chile you can find.
             </p>
           </div>
-          <img src={abqImg} />
+          <img className="about-image" src={abqImg} />
         </div>
         <div className="media">
           <div className="layer">
             <p className="img__description">Texas Tech</p>
             <p>
-              I attended Texas Tech University for my Bachelor's Degree and graduated in May 2022. I
-              majored in Mechanical Engineering and had so many amazing memories
-              from this place.{" "}
+              I attended Texas Tech University for my Bachelor's Degree and
+              graduated in May 2022. I majored in Mechanical Engineering and had
+              so many amazing memories from this place.{" "}
             </p>
           </div>
-          <img src={texastechimg} />
+          <img className="about-image" src={texastechimg} />
         </div>
       </div>
     </section>
