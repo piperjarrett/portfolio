@@ -41,118 +41,71 @@ const Projects = () => {
 
   return (
     <div className="projects-page">
-      <Heading>Projects</Heading>
-      <div className="projects-container">
-        <Card maxW="sm">
-          <CardBody>
-            <Image
-              src={resipeLogo}
-              alt="Resipe Website Logo"
-              borderRadius="lg"
-            />
-            <Stack mt="6" spacing="3">
-              <Heading size="md">Resipe</Heading>
-              <Text>
-                This application helps bars easily maintain, modify, and search
-                through their collection of drinks. It was created with both a
-                front-end and back-end team of Turing students utilizing React,
-                Ruby on Rails, and GraphQL.
-              </Text>
-            </Stack>
-          </CardBody>
-          <Divider />
-          <CardFooter>
-            <ButtonGroup spacing="2">
-              <Button
-                variant="solid"
-                colorScheme="blue"
-                onClick={(event) => openResipe(event)}
-              >
-                Repo Link
-              </Button>
-              <Button
-                variant="ghost"
-                colorScheme="blue"
-                onClick={(event) => openResipe(event)}
-              >
+      <div className="projects-about">
+        <h1>Projects</h1>
+        <p>
+          Here is a showcase of three of my most recent projects. I worked in
+          both group and independently to complete these.
+        </p>
+      </div>
+      <div className="wrapper">
+        <div className="projects-media">
+          <div className="layer">
+            <p className="img__description">Re-sip-e</p>
+            <p>
+              This application helps bars easily maintain, modify, and search
+              through their collection of drinks. It was created with both a
+              front-end and back-end team of Turing students utilizing React,
+              Ruby on Rails, and GraphQL.
+            </p>
+            <div className="buttons" spacing="2">
+              <button onClick={(event) => openResipe(event)}>Repo Link</button>
+              <button onClick={(event) => openResipe(event)}>
                 Deployed Link
-              </Button>
-            </ButtonGroup>
-          </CardFooter>
-        </Card>
-        <Card maxW="sm">
-          <CardBody>
-            <Image
-              src={canineCupidLogo}
-              alt="Canine Cupid Website Logo"
-              borderRadius="lg"
-            />
-            <Stack mt="6" spacing="3">
-              <Heading size="md">Canine Cupid</Heading>
-              <Text>
-                While working on a team of three, the objective of this project
-                was to learn a new language on our our and my team decide to
-                learn TypeScript
-              </Text>
-            </Stack>
-          </CardBody>
-          <Divider />
-          <CardFooter>
-            <ButtonGroup spacing="2">
-              <Button
-                onClick={(event) => openCanineCupid(event)}
-                variant="solid"
-                colorScheme="blue"
-              >
+              </button>
+            </div>
+          </div>
+          <img className="about-image" src={resipeLogo} />
+        </div>
+        <div className="projects-media">
+          <div className="layer">
+            <p className="img__description">Canine Cupid</p>
+            <p>
+              While working on a team of three, the objective of this project
+              was to learn a new language on our our and my team decide to learn
+              TypeScript
+            </p>
+            <div className="buttons" spacing="2">
+              <button onClick={(event) => openCanineCupid(event)}>
                 Repo Link
-              </Button>
-              <Button
-                onClick={(event) => openCanineCupid(event)}
-                variant="ghost"
-                colorScheme="blue"
-              >
+              </button>
+              <button onClick={(event) => openCanineCupid(event)}>
                 Deployed Link
-              </Button>
-            </ButtonGroup>
-          </CardFooter>
-        </Card>
-        <Card maxW="sm">
-          <CardBody>
-            <Image
-              src={cocktailCreator}
-              alt="Cocktail Creator Website Logo"
-              borderRadius="lg"
-            />
-            <Stack mt="6" spacing="3">
-              <Heading size="md">Cocktail Creator</Heading>
-              <Text>
-                This application helps bars easily maintain, modify, and search
-                through their collection of drinks. It was created with both a
-                front-end and back-end team of Turing students utilizing React,
-                Ruby on Rails, and GraphQL.
-              </Text>
-            </Stack>
-          </CardBody>
-          <Divider />
-          <CardFooter>
-            <ButtonGroup spacing="2">
-              <Button
-                variant="solid"
-                colorScheme="blue"
-                onClick={(event) => openCocktailCreator(event)}
-              >
+              </button>
+            </div>
+          </div>
+          <img className="about-image" src={canineCupidLogo} />
+        </div>
+        <div className="projects-media">
+          <div className="layer">
+            <p className="img__description">Cocktail-creator</p>
+            <p>
+              This application helps bars easily maintain, modify, and search
+              through their collection of drinks. It was created with both a
+              front-end and back-end team of Turing students utilizing React,
+              Ruby on Rails, and GraphQL.
+            </p>
+            <div className="buttons" spacing="2">
+              <button onClick={(event) => openCocktailCreator(event)}>
                 Repo Link
-              </Button>
-              <Button
-                variant="ghost"
-                colorScheme="blue"
-                onClick={(event) => openCocktailCreator(event)}
-              >
+              </button>
+              <button onClick={(event) => openCocktailCreator(event)}>
                 Deployed Link
-              </Button>
-            </ButtonGroup>
-          </CardFooter>
-        </Card>
+              </button>
+            </div>
+          </div>
+          <img className="about-image" src={cocktailCreator} />
+        </div>
       </div>
     </div>
   );
