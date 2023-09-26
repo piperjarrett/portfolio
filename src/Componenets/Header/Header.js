@@ -4,7 +4,11 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <Heading>
+    <Heading
+      // className={`sticky ${
+      //   scrollDirection === "down" ? "-top-24" : "top-0"
+      // } h-24 bg-blue-200 transition-all duration-500`}
+    >
       <NavLink to="/">
         <p>Piper Jarrett</p>
       </NavLink>

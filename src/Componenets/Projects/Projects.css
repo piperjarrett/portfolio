@@ -3,12 +3,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+ 
 }
-.projects-container {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    flex-wrap: wrap;
+
+.projects-page h1 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.wrapper {
+    /* background-color: #557A95; */
+    border-radius: 4px;
+    margin-bottom: 10px;
 }
 .img {
     height: auto !important;
@@ -21,10 +27,56 @@ h4 {
 .chakra-button {
     margin: .5rem
 }
-.chakra-card {
-    margin: 2rem;
-}
-.chakra-card__footer {
+
+
+.projects-media {
+    background: white;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+ 
 }
+
+.projects-media:hover .layer {
+    opacity: 0.8;
+    width: 70%;
+    transition: all 0.9s ease;
+  }
+
+  .projects-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem;
+    /* background-color: #557A95; */
+    margin: 1rem;
+    margin-bottom: 3rem;
+    border-radius: 4px;
+    width: 30rem;
+    text-align: center;
+    box-shadow: 0px 4px 16px 0px #5D5c61;
+  }
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .buttons button {
+    margin: 1rem;
+    background-color: #557A95;
+    border-radius: 5px;
+
+    padding: 1rem;
+  }
+
+  button:hover {
+    box-shadow: 0px 4px 16px 0px #5D5c61;
+
+  }
